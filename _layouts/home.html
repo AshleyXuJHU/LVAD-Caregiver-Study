@@ -11,7 +11,7 @@ layout: default
       </div>
         
       <div class="row center">
-        <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light orange">Get Started</a>
+        <a href="https://nursingjhu.qualtrics.com/jfe/form/SV_5dV4sAQO1mFx5HL" id="download-button" class="btn-large waves-effect waves-light orange">Get Started</a>
       </div>
       <br><br>
 
@@ -25,28 +25,33 @@ layout: default
       <div class="row">
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Speeds up development</h5>
-
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+            <img class="step" src="/assets/img/PagePicture1-1.png" />
+            <h5 class="center">Step 1</h5>
+            <p class="light">Short Survey. Complete a short survey to see if you qualify to join the study. This will take less than 2 minutes.</p>
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">User Experience Focused</h5>
+              <img class="step" src="/assets/img/PagePicture1-2.png" />
+            <h5 class="center">Step 2</h5>
 
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.Survey. Complete a survey that includes questions about your experience as a
+                caregiver. This will take about 30 minutes. After the survey, you will be asked if you are
+                interested in sharing more information about your experiences in an online focus group at
+                a later time. You will receive a $10 gift card for completion of the survey.</p>
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Easy to work with</h5>
-
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+            <img class="step" src="/assets/img/PagePicture1-3.png" />
+            <h5 class="center">Step 3</h5>
+            <p class="light">
+                Focus group. Along with other caregivers of patients with LVADs, you will
+                discuss your experiences and thoughts to inform research that may help other caregivers and patients with LVADs. This will take about 1 hour. You will receive a $15 gift card
+                for participating in a focus group.
+            </p>
           </div>
         </div>
       </div>
@@ -55,24 +60,6 @@ layout: default
       
     </div>
     <div style="background: #ddd">
-    <div class="container last-post">
-    <section>
-        <h5>Latest Post</h5>
-        <ul class="collection">
-        {% for post in site.posts %}
-        <li class="collection-item avatar">
-          {% assign date_format = site.minima.date_format | default: "%m/%d" %}
-          <div class="date-post">{{ post.date | date: date_format }}</div>
-          <span class="title"><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></span>
-          <p>
-             {{ post.content | truncatewords: 10 }}
-          </p>
-          <a href="{{ post.url | relative_url }}" class="secondary-content"><i class="material-icons">navigate_next</i></a>
-        </li>
-        {% endfor %}
-        </ul>  
-    </section>
-    </div>
 </div>
 
   </div>
